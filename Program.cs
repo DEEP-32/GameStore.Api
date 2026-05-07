@@ -11,6 +11,7 @@ builder.SeedGenreDb();
 
 var app = builder.Build();
 app.MapGameEndpoints();
+app.MapGenresEndpoints();
 
 app.MigrateDb();
 
